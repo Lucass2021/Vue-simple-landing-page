@@ -1,11 +1,14 @@
 <template>
   <div>
-    <MenuComponent/>
+    <BannerComponent>
+      <MenuComponent/>
+    </BannerComponent>
   </div>
 </template>
 
 <script setup>
 import MenuComponent from './components/MenuComponent.vue';
+import BannerComponent from './components/BannerComponent.vue';
 
 
 
@@ -17,6 +20,21 @@ import MenuComponent from './components/MenuComponent.vue';
   padding:0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+}
+
+button{
+  background: #43FFA1;
+  color: #24053E;
+  padding:15px 25px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+  background: #FBF8FF;
 }
 
 </style>

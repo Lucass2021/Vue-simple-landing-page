@@ -15,7 +15,7 @@
 
 .menu-container{
     margin: 0 100px;
-    margin-top:30px;
+    padding-top:30px;
 }
 
 .menu{
@@ -25,15 +25,18 @@
     padding:0;
 }
 
+
+.menu li{
+    color: #fff;
+    font-size: 20px;
+}
+
 .menu li:first-child{
     
 }
 .menu li:last-child{
     cursor:pointer;
     font-weight: 500;
-}
-
-.menu li:last-child:hover{
     border-bottom: 3px solid #43FFA1;
 }
 
