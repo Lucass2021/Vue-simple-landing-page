@@ -22,10 +22,10 @@
 <style scoped>
 
 .banner-container{
-    background-image: url("../assets/bg.png");
+    background-image: url("../assets/bg-banner.svg");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 .title-container{
@@ -56,7 +56,12 @@ img{
     position: relative;
     top:50px;
     width:400px;
-    transform: rotate(10deg);
+    animation: mover 2s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }
 
 </style>

@@ -25,7 +25,7 @@ import BannerComponent from './components/BannerComponent.vue';
 button{
   background: #43FFA1;
   color: #24053E;
-  padding:15px 25px;
+  padding:10px 20px;
   font-size: 20px;
   margin-top: 20px;
   cursor: pointer;

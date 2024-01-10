@@ -22,6 +22,7 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding:0;
 }
 
@@ -32,12 +33,18 @@
 }
 
 .menu li:first-child{
-    
+    padding:10px;
 }
 .menu li:last-child{
     cursor:pointer;
     font-weight: 500;
-    border-bottom: 3px solid #43FFA1;
+    padding:10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu li:last-child:hover{
+    background: #43FFA1;
+    color: #24053E;
 }
 
 </style>
