@@ -47,4 +47,14 @@
     color: #24053E;
 }
 
+@media only screen and (max-width: 767px) {
+
+    .menu-container{
+        margin: 0 30px;
+    }
+    .menu li{
+        font-size: 14px;
+    }
+}
+
 </style>

@@ -64,4 +64,16 @@ img{
     100% { transform: translateY(-20px); }
 }
 
+
+@media only screen and (max-width: 767px) {
+
+    h1{
+        font-size: 40px;
+    }
+    img{
+        width: 200px;
+    }
+
+}
+
 </style>
