@@ -1,14 +1,18 @@
 <template>
   <div>
-    <BannerComponent>
-      <MenuComponent/>
-    </BannerComponent>
+    <div style="background: #FBF8FF;">
+      <BannerComponent>
+        <MenuComponent/>
+      </BannerComponent>
+    </div>
+    <SliderComponent/>
   </div>
 </template>
 
 <script setup>
 import MenuComponent from './components/MenuComponent.vue';
 import BannerComponent from './components/BannerComponent.vue';
+import SliderComponent from './components/SliderComponent.vue';
 
 
 

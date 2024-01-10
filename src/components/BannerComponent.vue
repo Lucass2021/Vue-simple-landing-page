@@ -57,6 +57,7 @@ img{
     top:50px;
     width:400px;
     animation: mover 2s infinite  alternate;
+    z-index: 9;
 }
 
 @keyframes mover {
