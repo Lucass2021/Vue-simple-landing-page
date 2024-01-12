@@ -6,6 +6,7 @@
       </BannerComponent>
     </div>
     <SliderComponent/>
+    <AboutComponent/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@
 import MenuComponent from './components/MenuComponent.vue';
 import BannerComponent from './components/BannerComponent.vue';
 import SliderComponent from './components/SliderComponent.vue';
+import AboutComponent from './components/AboutComponent.vue';
 
 
 
@@ -31,9 +33,9 @@ button{
   color: #24053E;
   padding:10px 20px;
   font-size: 20px;
+  font-weight: 700 !important;
   margin-top: 20px;
   cursor: pointer;
-  font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
 
