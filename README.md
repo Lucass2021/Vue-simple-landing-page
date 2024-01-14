@@ -25,7 +25,7 @@ This project was developed with the following technologies:
 
 
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/Lucass2021/Vue-simple-landing-page/main/git_assets/project.jpg"/>
+    <img src="https://raw.githubusercontent.com/Lucass2021/Vue-simple-landing-page/main/git_assets/project2.jpg"/>
 </h1>
 
 
