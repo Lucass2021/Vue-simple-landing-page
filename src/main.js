@@ -9,9 +9,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faUserSecret)
+library.add(faFacebook, faUserSecret)
 
 import { Quasar } from 'quasar'
 import quasarUserOptions from './quasar-user-options'
