@@ -7,6 +7,8 @@
     </div>
     <SliderComponent/>
     <AboutComponent/>
+    <FooterComponent/>
+    <font-awesome-icon icon="phone" />
   </div>
 </template>
 
@@ -15,6 +17,7 @@ import MenuComponent from './components/MenuComponent.vue';
 import BannerComponent from './components/BannerComponent.vue';
 import SliderComponent from './components/SliderComponent.vue';
 import AboutComponent from './components/AboutComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 
 
