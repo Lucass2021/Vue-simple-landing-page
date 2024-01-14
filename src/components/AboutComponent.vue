@@ -36,7 +36,7 @@
 }
 
 img{
-    width:500px;
+    width:400px;
 }
 
 .card{
@@ -54,5 +54,48 @@ img{
 .card p{
     color: #fff;
 }
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        padding: 0px 30px;
+        padding-top:100px;
+    }
+
+    img{
+        width:300px;
+    }
+
+    .card{
+        max-width: 100%;
+        padding: 30px;
+    }
+
+    .card h3{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 12px;
+    }
+
+    .container .row{
+        flex-direction: column;
+    }
+
+    .container .col-6{
+        width: 100%;
+    }
+
+    .container .col-6:first-child{
+        justify-content: center !important;
+    }   
+
+    .container .col-6:last-child{
+        position: relative;
+        right: 0px;
+        bottom:100px;
+    }
+
+
+}  
 
 </style>
