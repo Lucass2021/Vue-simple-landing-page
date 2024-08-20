@@ -9,7 +9,7 @@
 
 ## 📝 Description
 
-> This is a project with the objective to practice Quasar and single page application in Vue.
+> This is a project with the objective of practicing Quasar in a single-page application using Vue.
 ---
 
 ## 🚀 Technologies
